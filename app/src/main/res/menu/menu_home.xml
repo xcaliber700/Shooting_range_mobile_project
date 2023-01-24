@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuBooking"
+        android:icon="@drawable/ic_booking"
+        android:title="@string/booking"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuProfile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="@string/profile"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuLogout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="@string/logout"
+        app:showAsAction="always" />
+</menu>

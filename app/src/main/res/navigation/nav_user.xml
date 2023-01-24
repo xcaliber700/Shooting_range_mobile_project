@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_user"
+    app:startDestination="@id/userHomeFragment">
+
+    <fragment
+        android:id="@+id/userHomeFragment"
+        android:name="com.example.shootingrangapp.user.UserHomeFragment"
+        android:label="Welcome">
+        <action
+            android:id="@+id/action_userHomeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_userHomeFragment_to_shootingFragment"
+            app:destination="@id/shootingFragment" />
+        <action
+            android:id="@+id/action_userHomeFragment_to_paymentConfirmationFragment"
+            app:destination="@id/paymentConfirmationFragment" />
+        <action
+            android:id="@+id/action_userHomeFragment_to_bookingsFragment"
+            app:destination="@id/bookingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.shootingrangapp.user.ProfileFragment"
+        android:label="Profile" />
+
+    <fragment
+        android:id="@+id/shootingFragment"
+        android:name="com.example.shootingrangapp.user.shotingRange.ShootingRangeFragment"
+        android:label="Details">
+        <argument
+            android:name="shootinRangeDetails"
+            app:argType="com.example.shootingrangapp.model.ShootingRangeModel" />
+        <action
+            android:id="@+id/action_shootingFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.shootingrangapp.user.shotingRange.PaymentFragment"
+        android:label="Payment" >
+        <argument
+            android:name="gun"
+            app:argType="com.example.shootingrangapp.model.GunModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentConfirmationFragment"
+        android:name="com.example.shootingrangapp.user.shotingRange.PaymentConfirmationFragment"
+        android:label="PaymentConfirmationFragment" >
+        <argument
+            android:name="order_id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookingsFragment"
+        android:name="com.example.shootingrangapp.user.BookingsFragment"
+        android:label="@string/my_booking" >
+        <argument
+            android:name="isMerchant"
+            app:argType="boolean" />
+    </fragment>
+
+
+</navigation>

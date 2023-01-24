@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "580391813751",
+    "project_id": "shooting-range-ff495",
+    "storage_bucket": "shooting-range-ff495.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580391813751:android:3ad09475d3fd39d20dfc72",
+        "android_client_info": {
+          "package_name": "com.example.shootingrangapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580391813751-b1a8ag5mji7rkj84v2k6oksbpcg5b0m9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shootingrangapp",
+            "certificate_hash": "4ad486b813867eee6d2d5896269a1730c1ed6c2c"
+          }
+        },
+        {
+          "client_id": "580391813751-kh04khho7ckfioe7mbcontnv8ne275cm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0c31TVp5LCvE4kiLokqOMhMgTnfmbVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580391813751-kh04khho7ckfioe7mbcontnv8ne275cm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

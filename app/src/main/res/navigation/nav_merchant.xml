@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_user"
+    app:startDestination="@id/merchantHomeFragment">
+
+
+    <fragment
+        android:id="@+id/merchantHomeFragment"
+        android:name="com.example.shootingrangapp.merchant.MerchantHomeFragment"
+        android:label="">
+        <action
+            android:id="@+id/action_merchantHomeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_merchantHomeFragment_to_addGunsFragment"
+            app:destination="@id/addGunsFragment" />
+        <action
+            android:id="@+id/action_merchantHomeFragment_to_bookingsFragment2"
+            app:destination="@id/bookingsFragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.shootingrangapp.user.ProfileFragment"
+        android:label="Profile" />
+    <fragment
+        android:id="@+id/addGunsFragment"
+        android:name="com.example.shootingrangapp.merchant.AddGunsFragment"
+        android:label="Add Guns" />
+    <fragment
+        android:id="@+id/bookingsFragment2"
+        android:name="com.example.shootingrangapp.user.BookingsFragment"
+        android:label="@string/booking_amount" >
+        <argument
+            android:name="isMerchant"
+            app:argType="boolean" />
+    </fragment>
+
+</navigation>

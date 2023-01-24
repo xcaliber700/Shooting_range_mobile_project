@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Shooting Range App</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="update">Update</string>
+    <string name="i_am_merchant">I\'m a merchant</string>
+    <string name="name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="company_name">Company Name</string>
+    <string name="contact_email">Contact Email</string>
+    <string name="telephone_no">Telephone no</string>
+    <string name="address">Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="error">Something went wrong!</string>
+    <string name="profile_updated">Profile updated successfully!</string>
+    <string name="does_not_have_account">Doesn\'t have account? signup now</string>
+    <string name="already_have_account">Already have account? login now</string>
+    <string name="profile">Profile</string>
+    <string name="booking">Bookings</string>
+    <string name="logout">Logout</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="card_holder_name">Card holder name</string>
+    <string name="card_no">Card number</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="cvv">CVV</string>
+    <string name="pay_and_book">Pay &amp; Book</string>
+
+    <string name="please_enter_valid_name">Please enter a valid Name!</string>
+    <string name="please_enter_valid_email">Please enter a valid email!</string>
+    <string name="please_enter_valid_contact_no">Please enter a valid contact no!</string>
+    <string name="please_enter_valid_address">Please enter a valid address!</string>
+    <string name="password_should_be_6_digit">Password should be at least 6 char long!</string>
+    <string name="confirm_password_does_not_match">Confirm password doesn\'t match!</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="go_to_shop_info">Go to Shop Info</string>
+    <string name="add_guns">Add Guns</string>
+    <string name="gun_name">Gun name</string>
+    <string name="ammunition_name">Ammunition Name</string>
+    <string name="ammunition_price">Ammunition Price</string>
+    <string name="ammunition_qty">Ammunition Quantity</string>
+    <string name="select_image">Select Image</string>
+
+    <string name="please_select_gun_image">Please select gun image!</string>
+    <string name="please_select_ammunition_image">Please select ammunition image!</string>
+    <string name="gun_name_can_not_blank">Gun name can\'t be blank!</string>
+    <string name="ammunition_name_can_not_blank">Ammunition name can\'t be blank!</string>
+    <string name="ammunition_qty_can_not_blank">Ammunition quantity can\'t be blank!</string>
+    <string name="ammunition_invalid_price">Invalid ammunition price!</string>
+    <string name="gun_added_successfully">Gun added successfully!</string>
+    <string name="picture_changed_successfully">Picture updated successfully!</string>
+
+    <string name="book_now">Book Now</string>
+    <string name="no_review">No reviews</string>
+
+    <string name="card_holder_name_can_not_be_blank">Card holder name can\'t be blank!</string>
+    <string name="last_name_can_not_be_blank">Last name can\'t be blank!</string>
+    <string name="please_enter_valid_card_no">Card no should be at least 14 digits!</string>
+    <string name="please_enter_valid_expiry">Please enter a valid expiry!</string>
+    <string name="please_enter_valid_cvv">Please enter a valid cvv!</string>
+
+    <string name="order_confirmation">Thank you for your booking. your booking is confirmed and booking no is %1$s</string>
+    <string name="booking_date">Booking date</string>
+    <string name="entry_fee">Entry fee</string>
+    <string name="service_charges">Service charges</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="booking_id">Booking Id : %1$s</string>
+    <string name="booking_date_">Booking Date : %1$s</string>
+    <string name="booking_amount">Booking Amount : %1$s</string>
+    <string name="payment_method">Payment method : %1$s</string>
+
+    <string name="my_booking">My Bookings</string>
+</resources>
